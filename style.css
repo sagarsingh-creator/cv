@@ -1,0 +1,158 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+    /* font-size: 375% */
+    font-size: 3.75em;
+    /* font-size: 375%;let image is of 70px then we calculate 70/16*100 it give in %....1em=16px em is equal to capital M letter it's size is 16px if we want to get 60px = 60/16 */
+    margin: 30px auto 0 auto ;
+    /* we use margin because it make h1 and paragraph more close if it is not there then there is lot of space between header and paragraph */
+
+}
+/* p{
+    color: #66BFBF;
+    font-size: 1.5rem;
+    font-weight: normal;
+} */
+p{
+    line-height: 2;
+}
+h2 {
+    font-size: 2.2rem;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 120px;
+    background-color: #e3f3f3;
+
+
+}
+.cloud1 {
+    position: absolute;
+    right: 373px;
+    top: 50px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 350px;
+    top: 320px;
+}
+.skill-row{
+   width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.clipboard{
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+.cooking{
+   width: 20%;
+   float: right;
+   margin-left: 20px;
+    
+}
+/* .code-skill{
+    clear: left;
+}
+.code-skill1{
+    clear: right;
+} */
+.intro{
+    width: 24% ;
+    
+    margin-left: 35rem;
+    margin-bottom: 3rem;
+    color: #40514E;
+}
+hr{
+    width: 5rem;
+    margin: 100px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    color: grey;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    padding: 50px 0 20px;
+}
+.btn {
+    margin: 70px auto;
+    background: #11CDCD;
+    background-image: -webkit-linear-gradient(top, #11CDCD, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDCD, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDCD, #11999E);
+    background-image: -o-linear-gradient(top, #11CDCD, #11999E);
+    /* background-image: -webkit-gradient(to bottom, #11CDCD, #11999E); */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 191px;
+    font-size: 21px;
+    font-weight: 200;
+    padding: 19px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+.btn:hover {
+
+    border: solid #2BC4AC 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #3D94F6);
+    background-image: -moz-linear-gradient(top, #30E3CB, #3D94F6);
+    background-image: -ms-linear-gradient(top, #30E3CB, #3D94F6);
+    background-image: -o-linear-gradient(top, #30E3CB, #3D94F6);
+    /* background-image: -webkit-gradient(to bottom, #30E3CB, #3D94F6); */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ } 
+ a{
+    font-size: 1.3rem;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+ }
+ a:hover{
+    
+    color:#4df2f7 ;
+ }
+ .copy{
+    font-size: 1rem;
+    color: #EAF6F6;
+    padding: 30px 0;
+ }
